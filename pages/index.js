@@ -14,7 +14,6 @@ function IndexPage({ products }) {
 
 export async function getStaticProps() {
   const products = await getAllProductsInCollection()
-
   return {
     props: {
       products

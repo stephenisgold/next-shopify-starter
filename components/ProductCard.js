@@ -24,7 +24,7 @@ function ProductCard({ product }) {
             className="transform duration-500 ease-in-out hover:scale-110"
           />
         </div>
-        <div className="h-48 relative">
+        <div className="h-48 relative overflow-auto">
           <div className="font-primary text-palette-primary text-2xl pt-4 px-4 font-semibold">
             {title}
           </div>
